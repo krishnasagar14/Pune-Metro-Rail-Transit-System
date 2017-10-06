@@ -1,0 +1,36 @@
+
+SQL> desc signup;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+
+ NAME                                               VARCHAR2(20)
+ ADDRESS                                            VARCHAR2(35)
+ DATEOFBIRTH                                        VARCHAR2(15)
+ CONTACTNO                                          VARCHAR2(10)
+ PASSWORD                                           VARCHAR2(15)
+ GENDER                                             VARCHAR2(8)
+
+SQL> desc account;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+
+ ACCOUTN_NO                                         VARCHAR2(15)
+ BANK_NAME                                          VARCHAR2(20)
+ CARD                                               VARCHAR2(15)
+
+SQL> desc user_tickets;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+
+ NAME                                               VARCHAR2(20)
+ PASSWORD                                           VARCHAR2(20)
+
+SQL> desc sms;
+ Name                                      Null?    Type
+ ----------------------------------------- -------- ----------------------------
+
+ NAME                                               VARCHAR2(20)
+ CONTACTNO                                          VARCHAR2(10)
+ EMAIL_ID                                           VARCHAR2(30)
+
+SQL>
